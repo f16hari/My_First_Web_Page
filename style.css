@@ -10,7 +10,7 @@ body{
     position: static;
     background-attachment:scroll;
 animation-name: grad;
-animation-duration: 3s;
+animation-duration: 5s;
 animation-timing-function: ease-out;}
 
 img{
@@ -172,7 +172,7 @@ img:hover{
 }
 
 @keyframes grad{
-    from { background-position: 200px 0; }
+    from { background-position: 400px 0; }
     to { background-position: 0px 0; }
 }
 
